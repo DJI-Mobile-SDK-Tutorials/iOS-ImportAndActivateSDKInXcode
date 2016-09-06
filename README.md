@@ -8,7 +8,7 @@ This demo is designed for you to learn how to import and activate DJI SDK in you
 
  - iOS 8.0+
  - Xcode 7.0+
- - DJI iOS SDK 3.2
+ - DJI iOS SDK 3.3
 
 ## Tutorial
 
