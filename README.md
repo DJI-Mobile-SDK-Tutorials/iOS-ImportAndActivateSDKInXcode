@@ -1,5 +1,7 @@
 # iOS-ImportAndActivateSDKInXcode
 
+> **Note: This Sample Project is developed based on iOS SDK v3.5.1, an update version for iOS SDK v4.0 will be published soon.**
+
 ## Introduction
 
 This demo is designed for you to learn how to import and activate DJI SDK in your Xcode project.
