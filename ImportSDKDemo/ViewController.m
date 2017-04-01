@@ -28,17 +28,15 @@
 
 - (void)registerApp
 {
-   NSString *appKey = @"Please enter your App Key here.";
-   [DJISDKManager registerApp:appKey withDelegate:self];
+   [DJISDKManager registerAppWithDelegate:self];
 }
 
 #pragma mark DJISDKManager Delegate Method
-
-- (void)sdkManagerDidRegisterAppWithError:(NSError *)error
+- (void)appRegisteredWithError:(NSError *)error
 {
     NSString* message = @"Register App Successed!";
     if (error) {
-        message = @"Register App Failed! Please enter your App Key and check the network.";
+        message = @"Register App Failed! Please enter your App Key in the plist file and check the network.";
     }else
     {
         NSLog(@"registerAppSuccess");
