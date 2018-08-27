@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8EB9DF9101346AD5E6A36676 /* libPods-ImportSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9013EC6AE611769230A87D /* libPods-ImportSDKDemo.a */; };
 		A43657411CD21F3800C20185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A43657401CD21F3800C20185 /* main.m */; };
 		A43657441CD21F3800C20185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A43657431CD21F3800C20185 /* AppDelegate.m */; };
 		A43657471CD21F3800C20185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43657461CD21F3800C20185 /* ViewController.m */; };
@@ -41,7 +40,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3F9013EC6AE611769230A87D /* libPods-ImportSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImportSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A436573C1CD21F3800C20185 /* ImportSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43657401CD21F3800C20185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A43657421CD21F3800C20185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 		A43657551CD21F3800C20185 /* ImportSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImportSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43657591CD21F3800C20185 /* ImportSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportSDKDemoTests.m; sourceTree = "<group>"; };
 		A436575B1CD21F3800C20185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A43657651CD21F6200C20185 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DJISDK.framework; sourceTree = "<group>"; };
 		A450D2B21DCB385C0084A74C /* ImportSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImportSDKDemo.entitlements; sourceTree = "<group>"; };
 		DD1FD960D14E5571D22CF203 /* Pods-ImportSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImportSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImportSDKDemo/Pods-ImportSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F7F74EEDAFCE7B1758FBD865 /* Pods-ImportSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImportSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImportSDKDemo/Pods-ImportSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB9DF9101346AD5E6A36676 /* libPods-ImportSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				A436573E1CD21F3800C20185 /* ImportSDKDemo */,
-				A43657641CD21F6200C20185 /* Frameworks */,
 				A43657581CD21F3800C20185 /* ImportSDKDemoTests */,
 				A436573D1CD21F3800C20185 /* Products */,
 				649E5DDA8894546B746C7D1D /* Pods */,
@@ -141,16 +136,6 @@
 				A436575B1CD21F3800C20185 /* Info.plist */,
 			);
 			path = ImportSDKDemoTests;
-			sourceTree = "<group>";
-		};
-		A43657641CD21F6200C20185 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A43657651CD21F6200C20185 /* DJISDK.framework */,
-				3F9013EC6AE611769230A87D /* libPods-ImportSDKDemo.a */,
-			);
-			name = Frameworks;
-			path = ImportSDKDemo/Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
