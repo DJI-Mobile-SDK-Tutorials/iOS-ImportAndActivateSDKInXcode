@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91633E699DA2C18AC94A279F /* libPods-ImportSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ADA29BFD98EB3226568514 /* libPods-ImportSDKDemo.a */; };
 		A43657411CD21F3800C20185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A43657401CD21F3800C20185 /* main.m */; };
 		A43657441CD21F3800C20185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A43657431CD21F3800C20185 /* AppDelegate.m */; };
 		A43657471CD21F3800C20185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43657461CD21F3800C20185 /* ViewController.m */; };
@@ -40,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18ADA29BFD98EB3226568514 /* libPods-ImportSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImportSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A436573C1CD21F3800C20185 /* ImportSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43657401CD21F3800C20185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A43657421CD21F3800C20185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91633E699DA2C18AC94A279F /* libPods-ImportSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,7 @@
 				A43657581CD21F3800C20185 /* ImportSDKDemoTests */,
 				A436573D1CD21F3800C20185 /* Products */,
 				649E5DDA8894546B746C7D1D /* Pods */,
+				EDE85CD24A8E28699E662597 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +140,14 @@
 				A436575B1CD21F3800C20185 /* Info.plist */,
 			);
 			path = ImportSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		EDE85CD24A8E28699E662597 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18ADA29BFD98EB3226568514 /* libPods-ImportSDKDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
