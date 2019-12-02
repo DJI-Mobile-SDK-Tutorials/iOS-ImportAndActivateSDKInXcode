@@ -45,6 +45,11 @@
     [self showAlertViewWithTitle:@"Register App" withMessage:message];
 }
 
+- (void)didUpdateDatabaseDownloadProgress:(NSProgress *)progress
+{
+    NSLog(@"Database Download Progress: %f", progress.fractionCompleted);
+}
+
 - (void)showAlertViewWithTitle:(NSString *)title withMessage:(NSString *)message
 {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
